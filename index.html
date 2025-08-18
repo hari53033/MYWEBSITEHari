@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D Model Marketplace</title>
+</head>
+<body>
+    <header>
+        <h1>3D Models</h1>
+        <p class="subtitle">Created by <strong>Hari Arjun M</strong> in Blender Software</p>
+    </header>
+
+    <div class="grid-container">
+        <div class="card" onclick="openPopup('407 2.png','407.rar')">
+            <img src="407 2.png" alt="Model 1">
+            <h3>407 TN TOURIST COACH VAN</h3>
+            <p class="price">Free</p>
+        </div>
+        <div class="card" onclick="openPopup('Gemini.png','Gemini Bus.rar')">
+            <img src="Gemini.png" alt="Model 2">
+            <h3>TN GEMINI COACH BUS</h3>
+            <p class="price">Free</p>
+        </div>
+        <div class="card" onclick="openPopup('Siva.png','Siva.rar')">
+            <img src="Siva.png" alt="Model 3">
+            <h3>MY FIRST 3D MODEL - LORD SIVA</h3>
+            <p class="price">Free</p>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img id="popupImg" src="" alt="Model">
+        <a id="downloadLink" href="" download>
+            <button>Download File</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
