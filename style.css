@@ -9,6 +9,10 @@ header {
     text-align: center;
     color: white;
 }
+footer {
+    font-size: 20px;
+    color : black;
+}
 
 .subtitle {
     margin-top: -10px;
@@ -83,4 +87,12 @@ header {
 
 .popup button:hover {
     background: orange;
+}
+
+.popup-copyright {
+    color : white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.8;
 }
